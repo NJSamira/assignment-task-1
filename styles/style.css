@@ -70,7 +70,8 @@
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
-.development .motivation .support p{
+/* ------shared class starts------ */
+.development .motivation .support .my-target p{
     max-width: 852px;
     height: 52px;
     color: rgb(13, 19, 33);
@@ -79,6 +80,7 @@
     opacity: 0.7;
     
 }
+/* ------shared class ends------ */
 .web-header{
     text-align: center;
     display: flex;
@@ -200,9 +202,11 @@
     border-radius: 16px;
 }
 
+
+/*  <!-- My Current Target section starts here --> */
 .my-target{
     max-width: 1330px;
-    height: 490px;
+    height: 550px;
     border: 3px solid red;
     width: 90%;
     margin: 0 auto;
@@ -211,28 +215,58 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Azeret Mono", monospace;
     border-radius: 16px;
+}
+.my-target h1{
+    max-width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .target-skills{
     display: flex;
     justify-content: center;
     align-items: start;
     gap: 34px;
-}
-.skill{
-    max-width: 410px;
-    height: 300px;
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
     
 }
-
-
-
-
-
-
-
+.skill{
+    max-width: 420px;
+    height: 310px;
+    padding: 48px;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: rgba(255, 75, 30, 0.308);
+    
+}
+.skill h5{
+    max-width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.skill h6{
+    max-width: 284px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 40px;
+}
 
 
 /* support section starts here */
