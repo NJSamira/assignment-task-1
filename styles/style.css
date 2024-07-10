@@ -335,10 +335,14 @@
 }
 .input-element{
     margin-bottom: 35px;
+    max-width: 684px;
+    height: 57px;
+    display: flex;
+    gap: 16px;
 }
  .support input[type="submit"]{  
     width: 120px;
-    height: 51.5px;
+    height: 52.5px;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
 }.btn-primary{
