@@ -261,13 +261,13 @@
 }
 /* ---skill cards coloring item starts here----*/
 .skill-item-1{
-    background-color: rgba(255, 75, 30, 0.096);
+    background-color: rgba(255, 0, 0, 0.082);
 }
 .skill-item-2{
-    background-color: rgba(0, 77, 232, 0.075);
+    background-color: rgba(89, 90, 33, 0.096);
 }
 .skill-item-3{
-    background-color: rgba(255, 221, 0, 0.103);
+    background-color: rgba(192, 255, 252, 0.418)
 }
 /*---skill cards coloring item ends here----*/
 
@@ -294,7 +294,7 @@
 .support{
     max-width: 1330px;
     height: 313px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.2)),url('../assets/handshake.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.288)),url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
