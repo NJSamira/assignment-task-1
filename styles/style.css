@@ -5,7 +5,7 @@
 
 
 .banner-container{
-    max-width: 1440px;
+    max-width: 1500px;
     height: 652px;
     width: 90%;
     margin: 0 auto;
@@ -19,8 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
     text-align: center;
 }
 .banner-img{
@@ -81,6 +80,7 @@
     
 }
 /* ------shared class ends------ */
+ 
 .web-header{
     text-align: center;
     display: flex;
@@ -138,7 +138,7 @@
 
 } 
 
-/* ---shared-style---- */
+/* ---shared-style starts---- */
 .btn-type{
     width: 131px;
     height: 23px;
@@ -150,7 +150,7 @@
     font-weight: 600;
     padding: 12px 20px 12px 20px;
 }
-
+/* -----shared-style ends-------- */
 
 /* My inspiration section starts here */
 .motivation{
@@ -164,7 +164,6 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    border: 3px solid red;
 }
 .inspiration-text{
     margin-top:  0px;
@@ -204,13 +203,13 @@
 
 
 /*  <!-- My Current Target section starts here --> */
+
 .my-target{
     max-width: 1330px;
     height: 550px;
-    border: 3px solid red;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,6 +269,7 @@
 
 
 /* support section starts here */
+
 .support{
     max-width: 1330px;
     height: 313px;
@@ -277,7 +277,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 3px solid red;
     font-family: "Azeret Mono", monospace;
     width: 90%;
     margin: 0 auto;
@@ -325,4 +324,41 @@
     font-size: 18px;
     font-weight: 600;
     font-family: "Azeret Mono", monospace;
+}
+
+/* footer section starts here */
+
+.footer-section{
+    max-width: 1500px;
+    height: 98px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content p{
+    max-width: 556px;
+    height: 33px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.social-site{
+    max-width: 160px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-top: 5px;
+    gap: 35px;
 }
