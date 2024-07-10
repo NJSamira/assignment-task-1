@@ -156,6 +156,7 @@
     font-weight: 600;
     padding: 12px 20px 12px 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 /* -----shared-style ends-------- */
 
@@ -278,7 +279,7 @@
     font-size: 24px;
     font-weight: 800;
 }
-.skill h6{
+.skill-btn{
     max-width: 284px;
     height: 19px;
     color: rgb(13, 19, 33);
