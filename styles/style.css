@@ -2,15 +2,17 @@
 
 /* banner section starts here */
 
-
+*{
+    max-width: 1500px;
+}
 
 .banner-container{
     max-width: 1500px;
-    height: 652px;
+    height: 712px;
     width: 90%;
     margin: 0 auto;
     font-family: "Azeret Mono", monospace;
-    margin-top: 131px;
+    margin-top: 90px;
     background-image: linear-gradient(180.00deg, rgba(0, 255, 234, 0.055),rgba(255, 0, 179, 0.021) 100%),url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,15 +50,17 @@
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
-    background: rgb(13, 19, 33);
-    width: 209px;
-    height: 50px;
+    background-color: rgba(13, 19, 33, 0.884);
+    width: 249px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-content a{
-    display: inline-block;
     text-decoration: none; 
-    text-align: center;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 .banner-btn:hover {
     background-color: rgba(107, 76, 99, 0.623);
@@ -65,16 +69,15 @@
 /* Why Web Development section starts here */
 
 .development{
-    max-width: 1140px;
-    height: 1393px;
+    max-width: 1008px;
+    height: 1383px;
     width: 90%;
     margin: 0 auto;
     font-family: "Azeret Mono", monospace;
-    margin-top: 74px;
-    margin-bottom: 90px;
+    margin: 74px auto 90px;
     padding: 80px 97px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
+    background-color: rgba(13, 19, 33, 0.068);
 }
 /* ------shared class starts------ */
 .development .motivation .support .my-target p{
@@ -113,12 +116,14 @@
     margin-bottom: 32px;
     border-radius: 16px;
 }
+            /* child sections color */
 .web-1{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .web-2{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+            /* ----------------------------- */
 .web-content{
     margin: 10.5px 98px 10.5px 0px;
     display: flex;
@@ -156,6 +161,7 @@
     font-size: 20px;
     font-weight: 600;
     padding: 12px 20px 12px 20px;
+    cursor: pointer;
 }
 /* -----shared-style ends-------- */
 
@@ -171,6 +177,8 @@
     align-items: center;
     justify-content: center;
     padding: 0;
+    background-color: rgba(245, 245, 220, 0.342);
+    border-radius: 16px;
 }
 .inspiration-text{
     margin-top:  0px;
@@ -194,7 +202,7 @@
 }
 .motivation iframe{
     border: 1px solid rgba(13, 19, 33, 0.2);
-    width: 1140px;
+    max-width: 1140px;
     height: 614px;
     border-radius: 16px;
     align-items: center;
@@ -259,13 +267,13 @@
 }
 /* ---skill cards coloring item starts here----*/
 .skill-item-1{
-    background-color: rgba(255, 76, 30, 0.05);
+    background-color: rgba(255, 75, 30, 0.096);
 }
 .skill-item-2{
-    background-color: rgba(0, 76, 232, 0.05);
+    background-color: rgba(0, 77, 232, 0.075);
 }
 .skill-item-3{
-    background-color: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 221, 0, 0.103);
 }
 /*---skill cards coloring item ends here----*/
 
@@ -354,7 +362,7 @@
     margin: 0 auto;
     margin-top: 80px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.03);
+    background: rgba(13, 19, 33, 0.082);
 }
 .footer-content{
     display: flex;
@@ -368,8 +376,8 @@
     font-size: 24px;
     font-weight: 600;
     font-family: "Azeret Mono", monospace;
-    margin-left: 200px;
-    margin-top: 30px;
+    margin-left: 100px;
+    margin-top: 35px;
 }
 .social-site{
     max-width: 160px;
@@ -377,7 +385,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 200px;
-    margin-top: 5px;
-    gap: 35px;
+    margin-right: 100px;
+    margin-top: 10px;
+    gap: 30px;
 }
